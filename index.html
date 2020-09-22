@@ -1,0 +1,154 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      .KALK {
+        margin: 0 40%;
+      }
+      .KALK .BUTT {
+        margin: 2px;
+        width: 48px;
+        height: 25px;
+        font-weight: BOLD;
+      }
+    </style>
+  </head>
+  <body>
+    <form name="KAL" class="KALK">
+      <table
+        border="1;"
+        width="300;"
+        HEIGHT="150;"
+        style="background: rgb(202, 25, 25)"
+      >
+        <tr>
+          <td height="40;" style="background: red">
+            <input type="text" name="Input" size="25" />
+            <span STYLE="COLOR:red">&nbsp;<i>modern calculator</i></span>
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              class="BUTT"
+              type="button"
+              name="tujuh"
+              value=" 7 "
+              OnClick="KAL.Input.value += '7'"
+            />
+            <input
+              class="BUTT"
+              type="button"
+              name="delapan"
+              value=" 8 "
+              OnCLick="KAL.Input.value += '8'"
+            />
+            <input
+              class="BUTT"
+              type="button"
+              name="sembilan"
+              value=" 9 "
+              OnClick="KAL.Input.value += '9'"
+            />
+            <input
+              class="BUTT"
+              type="button"
+              name="tambah"
+              value=" + "
+              OnClick="KAL.Input.value += ' + '"
+            />
+            <br />
+            <input
+              class="BUTT"
+              type="button"
+              name="empat"
+              value=" 4 "
+              OnClick="KAL.Input.value += '4'"
+            />
+            <input
+              class="BUTT"
+              type="button"
+              name="lima"
+              value=" 5 "
+              OnCLick="KAL.Input.value += '5'"
+            />
+            <input
+              class="BUTT"
+              type="button"
+              name="enam"
+              value=" 6 "
+              OnClick="KAL.Input.value += '6'"
+            />
+            <input
+              class="BUTT"
+              type="button"
+              name="kurang"
+              value=" - "
+              OnClick="KAL.Input.value += ' - '"
+            />
+            <br />
+            <input
+              class="BUTT"
+              type="button"
+              name="satu"
+              value=" 1 "
+              OnClick="KAL.Input.value += '1'"
+            />
+            <input
+              class="BUTT"
+              type="button"
+              name="dua"
+              value=" 2 "
+              OnCLick="KAL.Input.value += '2'"
+            />
+            <input
+              class="BUTT"
+              type="button"
+              name="tiga"
+              value=" 3 "
+              OnClick="KAL.Input.value += '3'"
+            />
+            <input
+              class="BUTT"
+              type="button"
+              name="kali"
+              value=" x "
+              OnClick="KAL.Input.value += ' * '"
+            />
+            <br />
+            <input
+              class="BUTT"
+              type="button"
+              name="hapus"
+              value=" C "
+              OnClick="KAL.Input.value = ''"
+            />
+            <input
+              class="BUTT"
+              type="button"
+              name="nol"
+              value=" 0 "
+              OnClick="KAL.Input.value += '0'"
+            />
+            <input
+              class="BUTT"
+              type="button"
+              name="sama dengan"
+              value=" = "
+              OnClick="KAL.Input.value = eval(KAL.Input.value)"
+            />
+            <input
+              class="BUTT"
+              type="button"
+              name="div"
+              value=" / "
+              OnClick="KAL.Input.value += ' / '"
+            />
+            <br />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
